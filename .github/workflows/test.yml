@@ -8,9 +8,6 @@ on:
       - renovate/**
 
   pull_request:
-    types:
-      - opened
-      - synchronize
 
 permissions:
   contents: read # to fetch code (actions/checkout)
